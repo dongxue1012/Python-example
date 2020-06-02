@@ -1,0 +1,10 @@
+def bubbleSort(list):
+    a = len(list)
+    for i in range(0,a):
+        for j in range(i,a):
+            if list[i] > list[j]:
+                list[i],list[j] = list[j],list[i]
+    return list
+
+list = [1,5,3]
+print(bubbleSort(list))
