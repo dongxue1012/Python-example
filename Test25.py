@@ -5,5 +5,5 @@ num = int(input('请输入一个数字：'))
 for i in range(1,num+1):
     factorial = factorial*i
     Sum +=factorial
-print('阶乘之和：',Sum)
+print('阶乘之和、：',Sum)
 

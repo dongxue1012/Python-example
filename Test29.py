@@ -1,4 +1,4 @@
-#Python中的多进程
+# Python中的多进程
 
 from multiprocessing import Process
 from os import getpid
