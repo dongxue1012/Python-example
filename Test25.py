@@ -1,4 +1,5 @@
 #求1+2!+3!+...+20!的和。
+
 Sum=0
 factorial=1
 num = int(input('请输入一个数字：'))
